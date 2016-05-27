@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/my_id1">
+
+        <item
+            android:id="@+id/inbox"
+            android:icon="@drawable/item_icon"
+            android:title="Cox's Bazar" />
+
+        </group>
+
+    <group
+        android:id="@+id/my_id4">
+
+        <item
+            android:id="@+id/starred"
+            android:icon="@drawable/item_icon"
+            android:title="Kuakata" />
+
+        </group>
+
+    <group
+        android:id="@+id/my_id5">
+
+        <item
+            android:id="@+id/sent_mail"
+            android:icon="@drawable/item_icon"
+            android:title="Inani" />
+</group>
+
+    <group
+        android:id="@+id/my_id6">
+        <item
+            android:id="@+id/drafts"
+            android:icon="@drawable/item_icon"
+            android:title="Himchori" />
+
+        </group>
+
+
+<group android:id="@+id/my_id2"
+    >
+
+            <item
+                android:id="@+id/allmail"
+
+                android:icon="@drawable/item_icon"
+                android:title="Moheshkhali" />
+           </group>
+
+    <group
+        android:id="@+id/my_id7">
+            <item
+                android:id="@+id/trash"
+
+                android:icon="@drawable/item_icon"
+                android:title="Saintmartin" />
+</group>
+
+    <group android:id="@+id/my_id3"
+       >
+        <item
+            android:id="@+id/spam"
+
+            android:icon="@drawable/item_icon"
+            android:title="Potenga" />
+    </group>
+
+</menu>
